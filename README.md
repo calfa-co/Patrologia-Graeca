@@ -126,7 +126,7 @@ A first training dataset has been released on Zenodo in 2022 : [https://zenodo.o
 
 ```latex
 @article{kindt2022manuscript,
-  title={From Manuscript to Tagged Corpora},
+  title={From Manuscript to Tagged Corpora, An Automated Process for Ancient Armenian or Other Under-Resourced Languages of the Christian East},
   author={Kindt, Bastien and Vidal-Gor{\`e}ne, Chahan},
   journal={Armeniaca-International Journal of Armenian Studies},
   volume={1},
