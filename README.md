@@ -103,6 +103,18 @@ A first training dataset has been released on Zenodo in 2022 : [https://zenodo.o
 ### Related publications
 
 ```latex
+@article{kindt2024fondation,
+  author    = {Kindt, B. and Auwers, J.-M.},
+  title     = {La Fondation Sedes Sapientiae soutient le projet de valorisation numérique de la Patrologie Grecque},
+  journal   = {Bulletin de la Fondation Sedes Sapientiae},
+  volume    = {45},
+  month     = {janvier},
+  year      = {2024},
+  pages     = {19--21}
+}
+```
+
+```latex
 @article{kindt2022analyse,
   title={Analyse automatique du grec ancien par r{\'e}seau de neurones. {\'E}valuation sur le corpus De Thessalonica Capta},
   author={Kindt, Bastien and Vidal-Gor{\`e}ne, Chahan and Delle Donne, Saulo},
