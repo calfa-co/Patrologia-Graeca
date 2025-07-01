@@ -10,6 +10,10 @@ The project is sponsored by the ASBL *Byzantion*, the Fondation *Sedes Sapientia
 
 The project implements the creation of specialized OCR models for the automatic reading of heavily damaged Patrologia Graeca fonts and for the extraction of Greek content only. The texts produced are then tagged (lemmatization, POS, and morphology). This Github offers the raw data produced. A proofread version of each text will gradually be offered within the GRE*g*ORI interfaces.
 
+<p style="text-align:center;">
+<img src="assets/CGPG.png" style="max-width: 500px;"/>
+</p>
+
 ## Works and Authors Dataset
 
 | id   | ed             | ed_url                                                                  | authors                          | authors_url                                                             | auhor_date     | work                                                                                                                                                                         | words_count |
