@@ -1,8 +1,13 @@
 # Patrologia-Graeca
 
-The CGPG project (Calfa GRE*g*ORI Patrologia Graeca), led by Jean-Marie Auwers (UCLouvain), aims to OCRize the remaining non-digital versions of the Patrologia Graeca volumes. The project relies on the expertise of [GRE*g*ORI](https://www.gregoriproject.com) and [Calfa](https://calfa.fr).
+[![arXiv](https://img.shields.io/badge/arXiv-2603.09470-b31b1b.svg)](https://arxiv.org/abs/2603.09470)
+[![Zenodo corpus](https://img.shields.io/badge/Zenodo-tagged%20corpus-blue?logo=zenodo)](https://zenodo.org/records/15780625)
+[![Zenodo ground-truth](https://img.shields.io/badge/Zenodo-OCR%20ground--truth-blue?logo=zenodo)](https://zenodo.org/records/7296539)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+![Volumes](https://img.shields.io/badge/volumes-33-green)
+![Words](https://img.shields.io/badge/words-~6M-green)
 
-The project is sponsored by the ASBL *Byzantion*, the Fondation *Sedes Sapientiae*, the Institut *Religions, Spiritualités, Cultures, Sociétés* (RSCS, UCLouvain) and the Centre d'études orientales (CIOL, UCLouvain) and by a generous donor who wishes to remain anonymous. Other sponsors have recently expressed their willingness to support the project.
+The CGPG project (Calfa GRE*g*ORI Patrologia Graeca), led by Jean-Marie Auwers (UCLouvain), aims to OCRize the remaining non-digital versions of the Patrologia Graeca volumes. The project relies on the expertise of [GRE*g*ORI](https://www.gregoriproject.com) and [Calfa](https://calfa.fr).
 
 [Webpage of the project](https://www.uclouvain.be/fr/instituts-recherche/incal/ciol/calfa-gregori-patrologia-graeca)
 
@@ -16,26 +21,41 @@ The project implements the creation of specialized OCR models for the automatic 
 
 ## Works and Authors Dataset
 
-| PG   | edition_file_name | edition_url | authors | authors_url | author_date | work | word count |
-|------|-------------------|--------------|----------|--------------|--------------|-------|-------------|
-| 71 | [PG071_ed.pdf](https://books.google.be/books?id=worYAAAAMAAJ&redir_esc=y) | Cyril of Alexandria | [Cyril of Alexandria](https://en.wikipedia.org/wiki/Cyril_of_Alexandria) | 4th–5th AD | *Commentarius in Oseam prophetam, in Joelem prophetam, In Amos prophetam, In Abdiam prophetam, In Jonam prophetam, In Michæam prophetam, In Nahum prophetam, In Habacuc prophetam, In Sophoniam prophetam, In Aggæum prophetam.* | 210957 |
-| 73 | [PG073_ed.pdf](http://books.google.com/books?id=ywsNQz1fTewC) | Cyril of Alexandria | [Cyril of Alexandria](https://en.wikipedia.org/wiki/Cyril_of_Alexandria) | 4th–5th AD | *In Joannis Evangelium* | 191303 |
-| 87.1 | [PG087.1_ed.pdf](http://books.google.com/books?id=CMcUAAAAQAAJ) | Procopius of Gaza | [Procopius of Gaza](https://en.wikipedia.org/wiki/Procopius_of_Gaza) | 5th–6th AD | *Commentarii in OT* | 151167 |
-| 101 | [PG101_ed.pdf](http://books.google.com/books?id=VZfYAAAAMAAJ) | Photios I of Constantinople | [Photios I of Constantinople](https://en.wikipedia.org/wiki/Photios_I_of_Constantinople) | 9th AD | *Amphilochiana, Commentarii in NT* | 178850 |
-| 109 | [PG109_ed.pdf](http://books.google.com/books?id=Z0naYVT0w-EC) | Scriptores Post Theopanem | ∅ | 9th–10th AD | ∅ | 148584 |
-| 112 | [PG112_ed.pdf](http://books.google.com/books?id=nyNKAAAAcAAJ) | Constantine Porphyrogenitus | [Constantine VII](https://en.wikipedia.org/wiki/Constantine_VII) | 10th AD | *De ceremoniis* | 129556 |
-| 123 | [PG123_ed.pdf](http://books.google.com/books?id=-SFJAAAAcAAJ) | Theophylact of Ohrid | [Theophylact of Ohrid](https://en.wikipedia.org/wiki/Theophylact_of_Ohrid) | 11th–12th AD | *Commentarii in NT* | 208024 |
-| 124 | [PG124_ed.pdf](http://books.google.com/books?id=AccUAAAAQAAJ) | Theophylact of Ohrid | [Theophylact of Ohrid](https://en.wikipedia.org/wiki/Theophylact_of_Ohrid) | 11th–12th AD | *Commentarii in NT* | 210302 |
-| 125 | [PG125_ed.pdf](http://books.google.com/books?id=Z7_UAAAAMAAJ) | Theophylact of Ohrid | [Theophylact of Ohrid](https://en.wikipedia.org/wiki/Theophylact_of_Ohrid) | 11th–12th AD | *Commentarii in NT* | 172696 |
-| 126 | [PG126_ed.pdf](http://books.google.com/books?id=eTYRAAAAYAAJ) | Theophylact of Ohrid | [Theophylact of Ohrid](https://en.wikipedia.org/wiki/Theophylact_of_Ohrid) | 11th–12th AD | *Commentarii in NT; et alia opera* | 164706 |
-| 134 | [PG134_ed.pdf](http://books.google.com/books?id=DrvUAAAAMAAJ) | Joannes Zonaras | [Joannes Zonaras](https://en.wikipedia.org/wiki/Joannes_Zonaras) | 11th–12th AD | *Annales* | 196859 |
-| 146 | [PG146_ed.pdf](http://books.google.com/books?id=xCJKAAAAcAAJ) | Nikephoros Kallistos Xanthopoulos | [Nikephoros Kallistos Xanthopoulos](https://en.wikipedia.org/wiki/Nikephoros_Kallistos_Xanthopoulos) | 13th–14th AD | *Ecclesiastica Historia* | 156848 |
-| 148 | [PG148_ed.pdf](http://books.google.com/books?id=IlWwi1vmdb4C) | Nicephorus Gregoras | [Nicephorus Gregoras](https://en.wikipedia.org/wiki/Nicephorus_Gregoras) | 13th–14th AD | *Roman History* | 234855 |
-| 151 | [PG151_ed.pdf](http://books.google.com/books?id=PyNKAAAAcAAJ) | Gregory Palamas (et al.) | [Gregory Palamas](https://en.wikipedia.org/wiki/Gregory_Palamas) | 13th–14th AD | *Opera Omnia (et al.)* | 399518 |
-| 153 | [PG153_ed.pdf](http://books.google.com/books?id=dIrYAAAAMAAJ) | John Kantakouzenos | [John VI Kantakouzenos](https://en.wikipedia.org/wiki/John_VI_Kantakouzenos) | 13th–14th AD | *Opera Omnia* | 230239 |
-| 155 | [PG155_ed.pdf](http://books.google.com/books?id=_McUAAAAQAAJ) | Simeon of Thessalonica | [Symeon of Thessalonica](https://en.wikipedia.org/wiki/Symeon_of_Thessalonica) | 14th–15th AD | *Dialogus in Christo (et alia opera)* | 175482 |
-| 157 | [PG157_ed.pdf](http://books.google.com/books?id=YB8RAAAAYAAJ) | George Kodinos (et al.) | [George Kodinos](https://en.wikipedia.org/wiki/George_Kodinos) | 15th AD | *Opera Omnia (et al.)* | 95020 |
-| 158 | [PG158_ed.pdf](http://books.google.com/books?id=hBIT95lCqEsC) | Michael Glykas (et al.) | [Michael Glykas](https://en.wikipedia.org/wiki/Michael_Glykas) | 12th AD | *Annales (et alia)* | 163148 |
+| PG | Dates | Authors and Works | Edition PDF | Word Count |
+|----|-------|-------------------|-------------|------------|
+| 3 | Pre-Nicaean | Dionysius the Areopagite (vol. 1) | [PG003_ed.pdf](http://books.google.com/books?id=ALfUAAAAMAAJ) | 134,866 |
+| 5 | Pre-Nicaean | Ignatius, Polycarp, Popes of 2nd c., Melito, others | [PG005_ed.pdf](http://books.google.com/books?id=PIQe9iqBoeQC) | 46,164 |
+| 6 | Pre-Nicaean | Justin, Tatian, Athenagoras, Theophilus, Hermias | [PG006_ed.pdf](http://books.google.com/books?id=NZLYAAAAMAAJ) | 170,482 |
+| 8 | Pre-Nicaean | Clement of Alexandria (vol. 1); Cohortatio, Paedagogus, Stromata | [PG008_ed.pdf](http://books.google.com/books?id=BwcRAAAAYAAJ) | 168,277 |
+| 9 | Pre-Nicaean | Clement of Alexandria (vol. 2); Stromata, Quis dives, Excerpta, Eclogae, old scholia, diss. by Le Nourry | [PG009_ed.pdf](http://books.google.com/books?id=QAgRAAAAYAAJ) | 82,135 |
+| 16.3 | Pre-Nicaean | Origen (vol. 6.3); Hexapla (contd); Hippolytus, Philosophumena | [PG016.3_ed.pdf](http://books.google.com/books?id=mAsRAAAAYAAJ) | 60,921 |
+| 21 | 4th century | Eusebius (vol. 3); Praeparatio Evangelica | [PG021_ed.pdf](http://books.google.com/books?id=BwcRAAAAYAAJ) | 236,625 |
+| 42 | 4th century | Epiphanius (vol. 2); Panarion (contd), Expositio fidei, Anacephalaeosis; Appendix: dissertations | [PG042_ed.pdf](http://books.google.com/books?id=QYHYAAAAMAAJ) | 161,237 |
+| 67 | 5th century | Socrates, *Historia Ecclesiastica*; Sozomen, *Historia Ecclesiastica* | [PG067_ed.pdf](http://books.google.com/books?id=WivbHxo0L-sC) | 170,445 |
+| 71 | 5th century | Cyril of Alexandria (vol. 4): Commentaries on Hosea, Joel, Amos, Jonah, Abdiah, Micaiah, Nahum, Habakuk, Haggai, etc. | [PG071_ed.pdf](https://books.google.be/books?id=worYAAAAMAAJ&redir_esc=y) | 210,957 |
+| 73 | 5th century | Cyril of Alexandria (vol. 6): Commentary on John | [PG073_ed.pdf](http://books.google.com/books?id=ywsNQz1fTewC) | 191,303 |
+| 87.1 | 7th century | Procopius of Gaza (vol. 1), Vetus Testamentum commentaries | [PG087.1_ed.pdf](http://books.google.com/books?id=CMcUAAAAQAAJ) | 151,167 |
+| 101 | 9th century | Photius (vol. 1): Exegetica: Quaestiones Amphilochiana, Commentary on Novum Testamentum | [PG101_ed.pdf](http://books.google.com/books?id=VZfYAAAAMAAJ) | 178,850 |
+| 107 | 10th century | Leo the Emperor: Theologica: 19 homilies and panegyrics, Letter to Omar, king of the Saracens, Juridical and canonical works; Poems, Apologia, Epigrams, Tactica sive de re militaria, oracula | [PG107_ed.pdf](http://books.google.com/books?id=Ru4GAAAAQAAJ) | 196,727 |
+| 109 | 10th century | Historical works: continuation of Theophanes; Constantine Porphyrogenitus, *De vita Basilii Macedonis*; John Cameniates, *Narratio de excidio Thessalonicae*; Symeon Magister et Logothetes, *Annales*; Josephus Genesius, *History of Constantinople*; and others | [PG109_ed.pdf](http://books.google.com/books?id=Z0naYVT0w-EC) | 148,584 |
+| 112 | 10th century | Constantine Porphyrogenitus (vol. 1): *De ceremoniis* | [PG112_ed.pdf](http://books.google.com/books?id=nyNKAAAAcAAJ) | 129,556 |
+| 113 | 10th century | Constantine Porphyrogenitus (vol. 2): *De thematibus*, *De administrando imperio*, *Vita Basilii Macedonis*; Theodosius Diaconus, *De expugnatione Cretae*; and others | [PG113_ed.pdf](http://books.google.com/books?id=Z_QUAAAAQAAJ) | 104,371 |
+| 118 | 10th century | Oecumenius (vol. 1): Commentary on Acts, Commentary on Paul's letters, Commentary on the Catholic letters | [PG118_ed.pdf](http://books.google.com/books?id=j_QUAAAAQAAJ) | 208,448 |
+| 121 | 11th century | George Cedrenus (vol. 1): *Compendium Historiarum* | [PG121_ed.pdf](http://books.google.com/books?id=PIQe9iqBoeQC) | 160,853 |
+| 122 | 11th century | George Cedrenus (vol. 2): *Compendium Historiarum* (contd); John Scylitzes, *Breviarium historicum*; Michael Psellus, many works | [PG122_ed.pdf](http://www.archive.org/details/patrologiaecurs61migngoog) | 150,647 |
+| 123 | 11th century | Theophylact of Bulgaria (vol. 1): *Ennaratio in Evangelium Matthaei / Marci / Lucae / Joannis* | [PG123_ed.pdf](http://books.google.com/books?id=-SFJAAAAcAAJ) | 208,024 |
+| 124 | 11th century | Theophylact of Bulgaria (vol. 2): *Commentarius in Joannis Evangelium* (contd); Commentary on Paul's letters | [PG124_ed.pdf](http://books.google.com/books?id=AccUAAAAQAAJ) | 210,302 |
+| 125 | 11th century | Theophylact of Bulgaria (vol. 3): Commentary on Paul's letters (contd); 1 and 2 Peter; alternative versions of commentaries | [PG125_ed.pdf](http://books.google.com/books?id=Z7_UAAAAMAAJ) | 172,696 |
+| 126 | 11th century | Theophylact of Bulgaria (vol. 4): More Novum Testamentum commentaries; Orations, Letters, Commentaries on minor prophets | [PG126_ed.pdf](http://books.google.com/books?id=eTYRAAAAYAAJ) | 164,706 |
+| 134 | 12th century | John Zonaras (vol. 1): *Annales* | [PG134_ed.pdf](http://books.google.com/books?id=DrvUAAAAMAAJ) | 196,859 |
+| 139 | 13th century | Isidore of Thessalonica, Sermons; Nicetas Maroneae; John of Citrus; Joel Chronographus, *Chronologia compendiaria*; Nicetas Choniates, *Historia Byzantina* (from John Comnenus to 1204), *Thesaurus* (books 1–5) | [PG139_ed.pdf](http://books.google.com/books?id=lscUAAAAQAAJ) | 134,703 |
+| 146 | 14th century | Nicephorus Callistus (vol. 2): *Ecclesiastical History*, books 8–14 | [PG146_ed.pdf](http://books.google.com/books?id=xCJKAAAAcAAJ) | 156,848 |
+| 148 | 14th century | Nicephorus Gregoras (vol. 1): *Historia Byzantina*, books 1–24 | [PG148_ed.pdf](http://books.google.com/books?id=IlWwi1vmdb4C) | 234,855 |
+| 151 | 14th century | Gregory Palamas (vol. 2); Gregory Acindynus, Barlaam | [PG151_ed.pdf](http://books.google.com/books?id=PyNKAAAAcAAJ) | 399,518 |
+| 153 | 14th century | John Cantacuzene (vol. 1): *Historia Byzantina* in 4 books (events from 1320–1354) | [PG153_ed.pdf](http://books.google.com/books?id=dIrYAAAAMAAJ) | 230,239 |
+| 155 | 15th century | Simeon of Thessalonica (1430 AD) | [PG155_ed.pdf](http://books.google.com/books?id=_McUAAAAQAAJ) | 175,482 |
+| 157 | 15th century | George Codinus (1400–1462): works about Constantinople, *De sepulchris imperatorem*; Ducas, *Historia Byzantina* 1341–1462, *Chronicon breve* (contd to 1523) | [PG157_ed.pdf](http://books.google.com/books?id=YB8RAAAAYAAJ) | 95,020 |
+| 158 | 15th century | Michael Glyca (1448–1453): *Annals*, Letters; Others | [PG158_ed.pdf](http://books.google.com/books?id=hBIT95lCqEsC) | 163,148 |
 
 ## File formats description
 
@@ -66,9 +86,22 @@ A first training dataset has been released on Zenodo in 2022 : [https://zenodo.o
 
 ## Bibliography
 
-### Within the scope of the CGPG project
+### To cite this work
 
-#### About guidelines for transcription and layout analysis
+Accepted to main track of LREC 2026
+```latex
+@article{vidal2026patrologia,
+  title={The Patrologia Graeca Corpus: OCR, Annotation, and Open Release of Noisy Nineteenth-Century Polytonic Greek Editions},
+  author={Vidal-Gor{\`e}ne, Chahan and Kindt, Bastien},
+  journal={arXiv preprint arXiv:2603.09470},
+  year={2026}
+}
+```
+
+
+
+
+#### About guidelines for transcription and experimentations
 
 ```latex
 @article{vidalgorene:hal-03982432,
@@ -95,6 +128,16 @@ A first training dataset has been released on Zenodo in 2022 : [https://zenodo.o
 ```
 
 ### Related publications
+
+```latex
+@inproceedings{vidal2026under,
+  title={Under-resourced studies of under-resourced languages: lemmatization and POS-tagging with LLM annotators for historical Armenian, Georgian, Greek and Syriac},
+  author={Vidal-Gor{\`e}ne, Chahan and Kindt, Bastien and Cafiero, Florian},
+  booktitle={Proceedings of the Second Workshop on Language Models for Low-Resource Languages (LoResLM 2026)},
+  pages={324--334},
+  year={2026}
+}
+```
 
 ```latex
 @article{kindt2024fondation,
@@ -128,3 +171,14 @@ A first training dataset has been released on Zenodo in 2022 : [https://zenodo.o
   year={2022}
 }
 ```
+
+## Acknowledgements
+
+- ASBL Byzantion
+- [Calfa (Paris)](https://calfa.fr/)
+- [UCLouvain - CIOL - Centre d'études orientales (CIOL, UCLouvain)](https://uclouvain.be/fr/instituts-recherche/incal/ciol)
+- [UCLouvain - FSS - Fondation Sedes Sapientiae](https://acg-bxl.be/portfolio-item/uclouvain-fondation-sapientiae/)
+- [UCLouvain - GREgORI Project](https://www.uclouvain.be/fr/instituts-recherche/incal/ciol/gregori-project)
+- [UCLouvain - INCAL - Institut des Civilisations Arts et Lettres](https://www.uclouvain.be/fr/instituts-recherche/incal)
+- [UCLouvain - RSCS - Institut de recherche pluridisciplinaire Religions Spiritualités Cultures Sociétés](https://www.uclouvain.be/fr/instituts-recherche/rscs)
+- And generous donor who wishes to remain anonymous
