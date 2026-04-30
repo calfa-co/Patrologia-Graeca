@@ -1,7 +1,7 @@
 # Patrologia-Graeca
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.09470-b31b1b.svg)](https://arxiv.org/abs/2603.09470)
-[![Zenodo corpus](https://img.shields.io/badge/Zenodo-tagged%20corpus-blue?logo=zenodo)](https://zenodo.org/records/15780625)
+[![Zenodo corpus](https://img.shields.io/badge/Zenodo-tagged%20corpus-blue?logo=zenodo)](https://zenodo.org/records/19915273)
 [![Zenodo ground-truth](https://img.shields.io/badge/Zenodo-OCR%20ground--truth-blue?logo=zenodo)](https://zenodo.org/records/7296539)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 ![Volumes](https://img.shields.io/badge/volumes-33-green)
