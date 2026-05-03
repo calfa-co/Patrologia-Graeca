@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.09470-b31b1b.svg)](https://arxiv.org/abs/2603.09470)
 [![Zenodo corpus](https://img.shields.io/badge/Zenodo-tagged%20corpus-blue?logo=zenodo)](https://zenodo.org/records/19915273)
-[![Zenodo ground-truth](https://img.shields.io/badge/Zenodo-OCR%20ground--truth-blue?logo=zenodo)](https://zenodo.org/records/7296539)
+[![Zenodo ground-truth](https://img.shields.io/badge/Zenodo-OCR%20ground--truth-blue?logo=zenodo)](https://zenodo.org/records/20008699)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 ![Volumes](https://img.shields.io/badge/volumes-33-green)
 ![Words](https://img.shields.io/badge/words-~6M-green)
@@ -68,7 +68,7 @@ Files with **linguistic tags** (lemma, POS) are available on [Zenodo](https://ze
 
 ## Ground-truth
 
-A first training dataset has been released on Zenodo in 2022 : [https://zenodo.org/records/7296539](https://zenodo.org/records/7296539).
+Two training datasets have been released on Zenodo in 2022 and in 2026 : [https://zenodo.org/records/20008699](https://zenodo.org/records/20008699).
 
 ```latex
 @dataset{vidal_gorene_2022_7296539,
